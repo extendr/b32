@@ -1,0 +1,20 @@
+[package]
+name = 'b32'
+publish = false
+version = '0.1.0'
+edition = '2021'
+rust-version = '1.65'
+
+[lib]
+crate-type = ['staticlib']
+name = 'b32'
+
+[dependencies]
+base32 = "0.5.1"
+extendr-api = { features = [
+  "either",
+], git = "https://github.com/extendr/extendr" }
+
+[profile.release]
+lto = true
+codegen-units = 1

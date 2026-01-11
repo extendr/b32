@@ -1,0 +1,23 @@
+Package: b32
+Title: Fast and Vectorized Base32 Encoding
+Version: 0.1.0
+Authors@R: 
+    person("Josiah", "Parry", , "josiah.parry@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-9910-865X"))
+Description: Fast, dependency free, and vectorized base32 encoding and
+    decoding. 'b32' supports the Crockford, Z, RFC 4648 lower, hex, and
+    lower hex alphabets.
+License: MIT + file LICENSE
+URL: https://github.com/extendr/b32
+Depends: 
+    R (>= 4.2)
+Suggests: 
+    blob,
+    testthat (>= 3.0.0)
+Config/rextendr/version: 0.4.2.9000
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+SystemRequirements: Cargo (Rust's package manager), rustc >= 1.65.0, xz
