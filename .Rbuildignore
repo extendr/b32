@@ -8,3 +8,4 @@
 ^README\.qmd$
 ^\.github$
 ^LICENSE\.md$
+^cran-comments\.md$

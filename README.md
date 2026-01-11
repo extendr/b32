@@ -6,7 +6,7 @@
 
 <!-- badges: start -->
 
-[![extendr](https://img.shields.io/badge/extendr-%5E0.8.1-276DC2)](https://extendr.github.io/extendr/extendr_api/)
+[![extendr](https://img.shields.io/badge/extendr-%5E0.8.1-276DC2)](https://extendr.rs/extendr/extendr_api/)
 <!-- badges: end -->
 
 <!-- badges: start -->
