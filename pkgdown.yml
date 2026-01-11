@@ -1,0 +1,8 @@
+pandoc: 3.1.11
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles: {}
+last_built: 2026-01-11T02:54Z
+urls:
+  reference: http://extendr.rs/b32/reference
+  article: http://extendr.rs/b32/articles
