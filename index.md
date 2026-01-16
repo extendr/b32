@@ -19,7 +19,7 @@ pak::pak("extendr/b32")
 ## Example
 
 Encode to base32 using
-[`encode()`](http://extendr.rs/b32/reference/encode.md):
+[`encode()`](https://extendr.rs/b32/reference/encode.md):
 
 ``` r
 library(b32)
@@ -30,8 +30,8 @@ encoded
 ```
 
 Decode using
-[`decode_as_string()`](http://extendr.rs/b32/reference/encode.md) to get
-back your original string:
+[`decode_as_string()`](https://extendr.rs/b32/reference/encode.md) to
+get back your original string:
 
 ``` r
 decode_as_string(encoded)
@@ -39,7 +39,7 @@ decode_as_string(encoded)
 ```
 
 You can also decode to raw vectors with
-[`decode()`](http://extendr.rs/b32/reference/encode.md) which returns a
+[`decode()`](https://extendr.rs/b32/reference/encode.md) which returns a
 `"blob"` object. The [`blob`](https://github.com/tidyverse/blob/)
 package is only a suggested dependency, but if you attach it, its print
 method will be used:

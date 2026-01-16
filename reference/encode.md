@@ -30,12 +30,19 @@ decode_as_string(x, alphabet = "crockford", padded = TRUE)
   default TRUE. Appends `=` to ensure that the final encoded chunk is 8
   blocks of characters.
 
+## Value
+
+`decode()` returns a
+[`blob`](https://blob.tidyverse.org/reference/blob.html) object.
+`encode()` returns a character vector. `decode_as_string()` returns a
+character vector.
+
 ## Details
 
-`encode()` returns a
-[blob::blob](https://blob.tidyverse.org/reference/blob.html) object
-which is a list of raw vectors. If an error is encountered in `decode()`
-the result will be an NA.
+`decode()` returns a
+[blob](https://blob.tidyverse.org/reference/blob.html) object which is a
+list of raw vectors. If an error is encountered in `decode()` the result
+will be an NA.
 
 ## Examples
 
