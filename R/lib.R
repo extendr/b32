@@ -5,7 +5,7 @@
 #' @param padded default TRUE. Appends `=` to ensure that the final encoded chunk is 8 blocks of characters.
 #'
 #' @details
-#' `decode()` returns a [blob] object which is a list of raw vectors.
+#' `decode()` returns a `blob` object which is a list of raw vectors.
 #' If an error is encountered in `decode()` the result will be an NA.
 #'
 #' @examples
@@ -14,7 +14,7 @@
 #' encode("hello", alphabet = "rfc4648")
 #'
 #' @export
-#' @returns `decode()` returns a [`blob`] object. `encode()` returns a character vector. `decode_as_string()` returns a character vector.
+#' @returns `decode()` returns a `blob` object. `encode()` returns a character vector. `decode_as_string()` returns a character vector.
 encode <- function(x, alphabet = "crockford", padded = TRUE) {
   alphabet <- match.arg(
     alphabet,

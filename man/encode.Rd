@@ -20,13 +20,13 @@ decode_as_string(x, alphabet = "crockford", padded = TRUE)
 \item{padded}{default TRUE. Appends \code{=} to ensure that the final encoded chunk is 8 blocks of characters.}
 }
 \value{
-\code{decode()} returns a \code{\link{blob}} object. \code{encode()} returns a character vector. \code{decode_as_string()} returns a character vector.
+\code{decode()} returns a \code{blob} object. \code{encode()} returns a character vector. \code{decode_as_string()} returns a character vector.
 }
 \description{
 Base32 Encode and Decode
 }
 \details{
-\code{decode()} returns a \link{blob} object which is a list of raw vectors.
+\code{decode()} returns a \code{blob} object which is a list of raw vectors.
 If an error is encountered in \code{decode()} the result will be an NA.
 }
 \examples{
