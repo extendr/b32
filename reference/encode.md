@@ -32,17 +32,13 @@ decode_as_string(x, alphabet = "crockford", padded = TRUE)
 
 ## Value
 
-`decode()` returns a
-[`blob`](https://blob.tidyverse.org/reference/blob.html) object.
-`encode()` returns a character vector. `decode_as_string()` returns a
-character vector.
+`decode()` returns a `blob` object. `encode()` returns a character
+vector. `decode_as_string()` returns a character vector.
 
 ## Details
 
-`decode()` returns a
-[blob](https://blob.tidyverse.org/reference/blob.html) object which is a
-list of raw vectors. If an error is encountered in `decode()` the result
-will be an NA.
+`decode()` returns a `blob` object which is a list of raw vectors. If an
+error is encountered in `decode()` the result will be an NA.
 
 ## Examples
 
